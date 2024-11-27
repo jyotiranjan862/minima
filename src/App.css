@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  scroll-behavior: smooth;
+  /* animation-duration: 3s; */
 }
 
 .App-logo {
@@ -11,6 +13,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+body{
+
 }
 
 .App-header {

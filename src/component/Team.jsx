@@ -45,7 +45,7 @@ const Team = () => {
   ];
 
   return (
-    <div className="w-full min-h-[80vh] px-4 sm:px-6 md:px-24 py-6 md:py-10">
+    <div id="Our Team" className="w-full min-h-[80vh] px-4 sm:px-6 md:px-24 py-6 md:py-10">
       <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold tracking-wide mb-6 md:mb-8 text-center">
         Our Awesome Team
       </h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Story = () => {
   return (
-    <div className="w-full min-h-[80vh] py-6 flex flex-col lg:flex-row justify-between px-6 md:px-24 gap-8">
+    <div id="Services" className="w-full min-h-[80vh] py-6 flex flex-col lg:flex-row justify-between px-6 md:px-24 gap-8">
       <div className="w-full lg:w-[45%]">
         <h2 className="text-2xl text-start md:text-5xl font-semibold tracking-wide mb-4 md:mb-6">
           Our Success Story

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to toggle menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); // Toggle the menu
+    setIsMenuOpen(!isMenuOpen); 
   };
 
   return (
@@ -35,7 +35,7 @@ const Nav = () => {
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white">
             {isMenuOpen ? (
-              // Cross Icon
+           
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -71,7 +71,7 @@ const Nav = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu with Smooth Transition */}
+      {/* Mobile Dropdown Menu */}
       <div
         className={`lg:hidden mt-2 transition-all duration-300 ease-in-out ${
           isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
